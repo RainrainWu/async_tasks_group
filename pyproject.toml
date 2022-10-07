@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "async-tasks-group"
+version = "0.1.0"
+description = ""
+authors = ["Rain Wu <rain.wu@appier.com>"]
+readme = "README.md"
+packages = [{include = "async_tasks_group"}]
+
+[tool.poetry.dependencies]
+python = "3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
