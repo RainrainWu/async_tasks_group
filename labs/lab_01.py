@@ -21,7 +21,6 @@ class TaskErrorBeta(BaseException):
 async def my_async_task():
 
     delay = random()
-    await asyncio.sleep(delay)
 
     if delay < 0.5:
         logging.info(f"delay {delay}")
